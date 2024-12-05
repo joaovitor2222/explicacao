@@ -1,0 +1,127 @@
+body{
+    background-color: deepskyblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pokedex{
+    color: gold;
+    font-size: large;
+    font-size: 20px;
+    background-color: red;
+    padding: .8rem 1.8rem;
+    font-size: .8rem;
+    border-radius: 5px;
+    box-shadow: 2px 2px black;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 80px;
+}
+
+.memoria{
+    color: gold;
+    font-size: large;
+    font-size: 20px;
+    background-color: red;
+    padding: .8rem 1.8rem;
+    font-size: .8rem;
+    border-radius: 5px;
+    box-shadow: 2px 2px black;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin-left: 80px;
+}
+
+.relogio{
+    color: gold;
+    font-size: large;
+    background-color: red;
+    padding: .8rem 1.8rem;
+    font-size: .8rem;
+    border-radius: 5px;
+    box-shadow: 2px 2px black;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    position:relative;
+    margin-left: 80px;
+    
+}
+
+.projeto_pokedex{
+    color: aliceblue;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    width: 40vh;
+    height: 40vh;
+    font-size: large;
+    font-style: oblique;
+    background: url("assets/img/pokedex.png");
+    background-size: cover;
+    display: block;
+}
+
+.projeto_memoria{
+    color: aliceblue;
+    align-items: center;
+    font-size: large;
+    width: 40vh;
+    height: 40vh;
+    font-style: oblique;
+    background: url("assets/img/memoria.png");
+    background-size: cover;
+    padding: 8px 8px;
+    display: block;
+}
+
+.projeto_relogio{
+    color: aliceblue;
+    align-items: center;
+    font-size: large;
+    width: 40vh;
+    height: 40vh;
+    font-style: oblique;
+    background: url("assets/img/relogio.png");
+    background-size: cover;
+    padding: 8px 8px;
+    display: block;
+}
+
+.portfolio{
+    color: rgb(0, 4, 255);
+    font-size: large;
+    background-color: rgb(0, 255, 255);
+    padding: .8rem 1.8rem;
+    font-size: .8rem;
+    border-radius: 5px;
+    box-shadow: 2px 2px black;
+    width: 10%;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    position:relative;
+    margin-bottom: 40px;
+    text-decoration: none;
+}
+
+.port{
+    background-color: white;
+    width: 12rem;
+    height: 5rem;
+    align-items: center;
+    padding: 8px 8px;
+    display: block;
+    border-radius: 8px;
+}
+
